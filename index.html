@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LockPassword</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/lock-alt-regular-24.png" type="image/png">
+
+</head>
+<body>
+   <div class="title">
+    <h1>LockPassword <i class='bx bx-lock-alt'></i></h1>
+    <p>Сreated by Volodymyr Kostiuk</p>
+   </div>
+   
+    <div class="generator">
+        <div class="password">
+            <input type="text" value="...">
+            <button>Copy</button>
+        </div>
+       
+        <div class="range">
+            <input type="range" min="1" max="24" value="8"> 
+            <span>8</span>
+        </div>
+        
+        <div class="options">
+            <div class="option">
+                <label for=""><input type="checkBox" id="lowercaseCb" >
+                    <span>a-z</span>
+                </label>
+            </div>
+            
+            <div class="option">
+                <label for=""> 
+                    <input type="checkBox" id="uppercaseCb">
+                    <span>A-Z</span>
+                </label>
+            </div>
+            <div class="option">
+                <label for=""><input type="checkBox" id="digitsCb">
+                    <span>0-9</span>
+                </label>
+            </div>
+
+            <div class="option">
+                <label for=""><input type="checkBox" id="specialsCb">
+                    <span>!@$#%^</span>
+                </label>
+            </div>
+           
+
+        </div>
+        <button class="generate">Generate</button>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script> 
+   <script src="main.js"></script> 
+</body>
+</html>

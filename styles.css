@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background-color: #1D2538;
+    color: #FFFAFA;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.title{
+    width: 270px;
+    background-color: #475B74;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.generator{
+    background-color: #475B74;
+    width: 400px;
+    margin: 150 auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.password{
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.password input{
+    padding: 10px 10px;
+    background-color: #7C8DA5;
+    border: 0;
+    color: #FFFAFA;
+}
+button{
+    background-color: #4682B4;
+    color: #FFFAFA;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px;
+}
+.password button {
+    border-radius: 0;
+}
+.password button:hover{
+background-color: #1D2538;
+}
+.range{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+
+.range span{
+    background-color: #4682B4;
+    padding: 10px;
+    margin-left: 20px;
+    min-width: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.options label {
+    display: block;
+    background-color: #4682B4;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+button.generate{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: #FFFAFA;
+}
+button.generate:hover{
+    background-color: #1D2538;
+}
